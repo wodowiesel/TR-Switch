@@ -1,6 +1,6 @@
 # TR-Switch
 
-The TX/RX-switch is a tool for signal sensitive or PTT switchting for HAN radios incl. pcb schematics.
+The TX/RX-switch is a tool for signal sensitive or PTT switching for HAM radios incl. pcb schematics.
 
 
 ## DISCLAIMERS
