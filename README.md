@@ -2,7 +2,6 @@
 
 The TX/RX-switch is a tool for signal sensitive or PTT switching for HAM radios incl. pcb schematics.
 
-
 ## DISCLAIMERS
 
 **This is still "work-in-progress (WIP)" so I do NOT take any kind of responsibility for damages/data losses!**
@@ -15,15 +14,30 @@ Have fun :)
 
 ## HARDWARE
 
-- USB-Cable
 - 1x Custom PCB by WodoWiesel
-- 3x 10 kOhm Resistors varibale
-- 1x 100 nF capacitor (or without, just bridge it)
 
-- 1x Push-Button For PTT
-- 3x 2-Pin Male Pin Header 
+- 1x USB-X cable for power supply
+
+- 1x THT-SPDT relay +5V
+
+- 3x THT-BNC female socket connector
+
+- 1x THT-1N4001 flyback suppression diode
+
+- 1x THT-2N3904 (TO-92) BJT transistor
+
+- 2x THT-LED green+orange+red (tx/rx/pwr-indicator)
+
+- 2x THT variable resistors 3-pin (~50-1kOhm)
+
+- 1x THT-3.5mm socket (optional)
+
+- 1x cable for PTT (optional)
+
+- 1x enclosure/box (recommended)
 
 - 1x Soldering iron
+
 - Solder + flux + IPA
 
 ## SOFTWARE
@@ -32,11 +46,11 @@ No need for that.
 
 ## HOW TO USE
 
-1. configure jumpers
+1. set up antenna, LNA, Transceiver and cables & adapters
 
-2. turn on +5V power supply 
+2. connect PTT (optional)
 
-3. set up LNA, Transceiver and cables
+3. turn on +5V power supply
 
 4. Have Fun 73
 
@@ -61,7 +75,6 @@ The new optimized PCB was designed with free KiCAD software (https://www.kicad.o
 :heavy_exclamation_mark: The PCB should be produced at a manufacturer
 
 (like PCBWay or similar) with the RoHS lead-free option for environmental protection.
-
 
 ## LICENSES
 
