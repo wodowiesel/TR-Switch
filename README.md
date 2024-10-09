@@ -26,7 +26,7 @@ Have fun :)
 
 - 1x THT-2N3904 (TO-92) BJT transistor
 
-- 2x THT-LED green+orange+red (tx/rx/pwr-indicator)
+- 3x THT-LED green+orange+red (tx/rx/pwr-indicator)
 
 - 2x THT variable resistors 3-pin (~50-1kOhm)
 
